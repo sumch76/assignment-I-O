@@ -1,0 +1,333 @@
+//1.check whether no is positive or non-positive
+#include<stdio.h>
+int main()
+{
+int x;
+printf("Enter a number\n");
+scanf("%d",&x);
+if(x>=0)
+{
+printf("No is Positive");
+}
+else
+{
+printf("No is non Positive");
+}
+} 
+
+//2.check whether no is divisible by 5 or not 
+
+#include<stdio.h>
+int main()
+{
+int x;
+printf("Enter a number\n");
+scanf("%d",&x);
+if(x%5==0)
+{
+printf("No is divisible by 5 ");
+}
+else
+{
+printf("No is not divisible by 5");
+}
+}
+
+//3.Check whether No is even or odd 
+
+#include<stdio.h>
+int main()
+{
+int x;
+printf("Enter a number\n");
+scanf("%d",&x);
+if(x%2==0)
+{
+printf("No. is Even ");
+}
+else
+{
+printf("No. is Odd");
+}
+}
+
+
+// 4.No. is odd or even without using modulo operator
+#include<stdio.h>
+int main()
+{
+    int x;
+    printf("enter a number:");
+    scanf("%d",&x);
+    if(x&1)
+    {
+        printf("no is odd");
+    }
+    else
+    printf("no is even");
+}
+//5.Check whether no is three digit or not
+#include<stdio.h>
+int main()
+{
+    int x;
+    printf("Enter a number\n");
+    scanf("%d",&x);
+    if(x>99&&x<1000)
+    {
+        printf("Number is three digit ");
+    }
+    else
+    {
+
+        printf("Number is not three digit");
+    }
+}
+//6.Write a program to print greater between two numbers. Print one number of both are
+the same.
+#include<stdio.h>
+int main()
+{
+int x,y;
+printf("enter two numbers\n");
+scanf("%d %d",&x,&y);
+if(x>y)
+printf("%d is greater",x);
+else
+printf("%d is greater",y);
+}
+//7.quadratic equation
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    disc=b*b-4*a*c;
+    printf("Enter three  digit:\n");
+    scanf("%d%d%d,&a,&b,&c");
+    if(disc>0)
+    printf("quadratic equations are real and distinct");
+    if(disc=0)
+    printf("quadratic equations are equal");
+    else
+    print("quadratic equation is imaginary")
+    
+}
+
+//8.CHECK A YEAR IS LEAP YEAR OR NOT
+#include<stdio.h>
+int main()
+    {
+        int x;
+        printf("ENTER A YEAR:");
+        scanf("%d",&x);
+
+        if(x%400==0)
+        printf("%d is leap year",x);
+    
+        else if(x%100==0)
+        printf("%d is non leap year",x);
+
+        else if(x%4==0)
+        printf("%d is leap year",x);
+        
+        else
+        printf("%d is not a leap year",x);
+
+    }
+
+  //9.Write a program to find the greatest among three given numbers. Print number once
+if the greatest number appears two or three times.
+
+
+#include<stdio.h>
+int main()
+{
+    int x,y,z;
+    printf("Enter three numbers:\n");
+    scanf("%d %d %d",&x,&y,&z);
+     
+     if(x>y)
+     {
+        if(x>y)
+        printf("%d is greater",x);
+        else
+        printf("%d is greater",z);
+     }
+     else
+     {
+        if(y>z)
+        {
+            printf("%d is greater",y);
+        
+        }
+        else
+        printf("%d is greater", z);
+     }
+    
+}
+
+//10.calculate the profit and loss percentage by entering the sp and cp
+include<stdio.h>
+int main()
+{
+    float sp ,cp;
+    printf("enter CP and SP\n");
+    scanf("%f %f",&cp,&sp);
+    if(sp==cp)
+    printf("no profit and loss percentage");
+    else
+    {
+    if(sp>cp)
+    printf("the profit percentage is %0.2f",(sp-cp)/cp*100);
+    else
+    printf("the loss percentage is %0.2f",(cp-sp)/cp*100);
+    }
+}
+//12.Check whether alphabet is lower case or upper casel
+#include<stdio.h>
+int main()
+{
+    char c;
+    printf("Emter a Alphabet\n");
+    scanf("%c",&c);
+
+    if(c>=65&&c<=90)
+    {
+
+        printf("Uppercase");
+    }
+    else if(c>=97&&c<=122)
+    {
+        printf("Lowercase");
+    }
+
+//13.Check whether no is divisible by 3 and 2
+
+#include<stdio.h>
+int main()
+{
+    int x;
+    printf("Enter a number\n");
+    scanf("%d",&x);
+    if(x%3==0&&x%2==0)
+        printf("no is divisible by 3 and 2");
+    else 
+        printf("No is not divisible by 3 and 2");
+    
+}
+//14.no is divisible by 7 or divisible by 3
+#include<stdio.h>
+int main()
+{
+    int x;
+    printf("Enter a number\n");
+    scanf("%d",&x);
+    if(x%7==0||x%3==0)
+        printf("no is divisible by 7 or 3");
+    else 
+        printf("No is not divisible by 7 or 3");
+    
+}
+//15.Check whether no is negative , positive,or zero
+    
+#include<stdio.h>
+int main()
+{
+    int x;
+    printf("Enter a number\n");
+    scanf("%d",&x);
+    if(x>0)
+        printf("no is positive");
+    else if(x<0)
+        printf("No is negative");
+    else
+        printf("Zero");
+}
+//16.Check whether alphabet is lower case ,an upper case a digit , a special case
+
+#include<stdio.h>
+int main()
+{
+    char c;
+    printf("Emter a Alphabet\n");
+    scanf("%c",&c);
+
+    if(c>=65&&c<=90)
+    {
+
+        printf("Uppercase");
+    }
+    else if(c>=97&&c<=122)
+    {
+        printf("Lowercase");
+     
+    }
+    else if(c>=48&&c<=57)
+    {
+    printf("Digit");
+    }
+    else
+{
+     printf("special case");
+    }
+    
+}
+
+//17.enter three sides of triangle and display triangle is valid or not
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("Enter three numbers:\n");
+    scanf("%d%d%d",&a,&b,&c);
+    if(a+b>c&&b+c>a&&c+a>b)
+    printf("Traingle is valid");
+    else
+    printf("triangle ks invalid");
+}
+    
+
+
+    
+
+
+    
+
+
+
+//18.enter a month no and display days in a month
+#include<stdio.h>
+int main()
+{
+   int m;
+   printf("Input Month No : ");
+   scanf("%d",&m);
+   switch(m)
+   {
+	case 1:
+	case 3:
+	case 5:
+	case 7:
+	case 8:
+	case 10:
+	case 12:
+	       printf("Month have 31 days. \n");
+	       break;
+	case 2:
+	       printf("The 2nd month is a February and have 28 days. \n");
+	       printf("in leap year The February month  Have 29 days.\n");
+	       break;
+	case 4:
+	case 6:
+	case 9:
+	case 11:
+	       printf("Month have 30 days. \n");
+	       break;
+default:
+	       printf("invalid Month number.\n");
+	       break;
+      }
+}
+
+
+
