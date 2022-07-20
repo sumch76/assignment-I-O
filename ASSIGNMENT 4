@@ -1,0 +1,118 @@
+//1.Print 5 times MySirG
+#include<stdio.h>
+int main()
+{
+    int i;
+    for(i=1; i<=5; i++)
+    {
+
+        printf("MySirG\n");
+    }
+}
+
+//2.Print first 10 natural no.
+#include<stdio.h>
+int main()
+{
+    int i;
+    for(i=0; i<=10; i++)
+    {
+
+        printf("%d\n",i);
+    }
+}
+
+//3.Print first 10 natural no in reverse order.
+#include<stdio.h>
+int main()
+{
+    int i;
+    for(i=10; i>=0; i--)
+    {
+
+        printf("%d\n",i);
+    }
+}
+//4.Print first 10 odd natural no.
+#include<stdio.h>
+int main()
+{
+    int i;
+    for(i=1; i<=10; i++)
+    {
+        printf("%d\n",2*i-1);
+    }
+}
+
+
+//5..Print first 10 odd natural no in reverse order.
+#include<stdio.h>
+int main()
+{
+    int i,n;
+    
+    for(i=10; i>=1; i--)
+    {
+        printf("%d\n",2*i-1);
+    }
+}
+
+//6..Print first 10 even natural no.
+#include<stdio.h>
+int main()
+{
+    int i,n;
+    
+    for(i=1; i<=10; i++)
+    {
+        printf("%d\n",2*i);
+    }
+}
+//7.Print first 10 even natural no in reverse order.
+#include<stdio.h>
+int main()
+{
+    int i;
+    
+    for(i=10; i>=1; i--)
+    {
+        printf("%d\n",2*i);
+    }
+}
+//8.Print square of first 10 natural no.
+#include<stdio.h>
+int main()
+{
+    int i;
+    printf("Square of first 10 natural no:\n");
+
+    for(i=0; i<=10; i++)
+    {
+        printf("%d\n",i*i);
+    }
+}
+
+//9.Print cube of first 10 natural no.
+#include<stdio.h>
+int main()
+{
+    int i;
+    printf("Cube of first 10 natural no:\n");
+
+    for(i=0; i<=10; i++)
+    {
+        printf("%d\n",i*i*i);
+    }
+}
+//10.Print cube of first 10 natural no.
+#include<stdio.h>
+int main()
+{
+    int i,n;
+    printf("Table of 5:\n");
+  
+    for(i=1; i<=10; i++)
+    {
+        printf("%d\n",5*i);
+    }
+}
